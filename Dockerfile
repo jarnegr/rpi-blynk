@@ -1,6 +1,6 @@
 FROM bellsoft/liberica-openjdk-debian:12
 
-ENV BLYNK_SERVER_VERSION 0.41.3
+ENV BLYNK_SERVER_VERSION 0.41.5
 
 RUN apt-get update \
 && apt-get install -y curl 
